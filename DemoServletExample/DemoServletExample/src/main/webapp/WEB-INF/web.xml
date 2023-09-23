@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" 
+         version="3.1">
+         
+
+
+  <welcome-file-list>
+    <welcome-file>Employee.html</welcome-file>
+  </welcome-file-list>  
+  <servlet>
+    <servlet-name>SaveServlet</servlet-name>
+    <servlet-class>com.CRUD.SaveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveServlet</servlet-name>
+    <url-pattern>/SaveServlet1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <welcome-file-list>
+    <welcome-file>Employee.html</welcome-file>
+  </welcome-file-list>  
+  <servlet>
+    <servlet-name>ViewServlet</servlet-name>
+    <servlet-class>com.CRUD.ViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewServlet</servlet-name>
+    <url-pattern>/ViewServlet1</url-pattern>
+  </servlet-mapping>
+  
+
+  
+   
+  <servlet>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>com.CRUD.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/Edit1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>Register.html</welcome-file>
+  </welcome-file-list>  
+  <servlet>
+    <description></description>
+    <display-name>Register</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.sachin.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/manage</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>VoterEligibity</servlet-name>
+    <servlet-class>com.sachin.VoterEligibity</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VoterEligibity</servlet-name>
+    <url-pattern>/voter</url-pattern>
+  </servlet-mapping>
+
+
+   <servlet>
+    <servlet-name>Calculator</servlet-name>
+    <servlet-class>com.sachin.Calculator</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Calculator</servlet-name>
+    <url-pattern>/calculator1</url-pattern>
+  </servlet-mapping>
+    
+    
+  <servlet>
+    <servlet-name>InsertData</servlet-name>
+    <servlet-class>com.sachin.InsertData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertData</servlet-name>
+    <url-pattern>/data</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>RegisterData</servlet-name>
+    <servlet-class>com.sachin.RegisterData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterData</servlet-name>
+    <url-pattern>/last</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>CurrentTimeDate</servlet-name>
+    <servlet-class>com.sachin.CurrentTimeDate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CurrentTimeDate</servlet-name>
+    <url-pattern>/CurrentTimeDate</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>InsertMobileData</servlet-name>
+    <servlet-class>com.sachin.InsertMobileData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertMobileData</servlet-name>
+    <url-pattern>/mobile</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterAndLogin.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/enter</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>RegisterAndLogin.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/function</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
